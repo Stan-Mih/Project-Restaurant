@@ -57,4 +57,31 @@ header nav li  a:hover{
     color: rgb(156, 156, 156);   
     border-radius: 10px;    
 }
-
+#background_kebabcheta{
+    margin: 0;
+}
+.container{
+    font-family: 'calibri';
+    text-align: center;
+    color: white;
+    
+}
+#wellcome{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 65px;
+    font-weight: bold;
+    text-shadow: 3px 3px #000000;
+  
+}
+#lunch_mnue{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 3px 3px #000000;
+}
