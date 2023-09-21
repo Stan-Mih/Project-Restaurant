@@ -57,15 +57,14 @@ header nav li  a:hover{
     color: rgb(156, 156, 156);   
     border-radius: 10px;    
 }
-#wood{
-    margin: 0;
-}
+
 .container{
-    
+   
     font-family: 'calibri';
     text-align: center;
     color: white;
     position: relative;
+    margin-top: 20px;
     
 }
 #lunch_menue{
@@ -103,9 +102,25 @@ header nav li  a:hover{
 }
 #map_text{
     position: absolute;
-    top: 500px;
-    left: 200px;
+    top: 490px;
+    left: 150px;
     font-size: 40px;
     font-weight: bold;
     text-shadow: 3px 3px #000000;
+}
+.footer {
+    background-color: white;
+    margin-top: 20px;
+    
+}
+#footer_logo{
+    display: inline-block;
+    padding:5px 5px;
+}
+#footer_text{    
+    float: right;
+    font-family: 'calibri';
+    font-size: 16px;
+    margin: 0;
+    padding: 20px;    
 }
