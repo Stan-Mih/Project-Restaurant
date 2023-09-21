@@ -1,7 +1,7 @@
 body {
     background-color: lightgrey;    
     margin: 0 auto;
-    background-image: url(img/wood.jpg);   
+    background-image: url(img/shevici.png);   
     font-size: 16px;
     max-width: 1300px;
 
@@ -57,30 +57,54 @@ header nav li  a:hover{
     color: rgb(156, 156, 156);   
     border-radius: 10px;    
 }
-#background_kebabcheta{
+#wood{
     margin: 0;
 }
 .container{
+    
     font-family: 'calibri';
     text-align: center;
     color: white;
+    position: relative;
     
 }
-#wellcome{
+#lunch_menue{
+    
     position: absolute;
-    top: 30%;
-    left: 50%;
+    top: 50px;
+    left: 240px;
     transform: translate(-50%, -50%);
-    font-size: 65px;
+    font-size: 40px;
     font-weight: bold;
     text-shadow: 3px 3px #000000;
-  
 }
-#lunch_mnue{
+#salad{    
+    font-size: 30px;
     position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 750px;
+    top : 80px
+}
+#kebabcheta{    
+    font-size: 30px;
+    position: absolute;
+    left: 150px;
+    top: 100px;
+}
+#beer{
+    font-size: 30px;
+    position: absolute;
+    left: 750px;
+    top: 450px;
+}
+#map{
+    position: absolute;
+    top: 600px;
+    left: 100px;
+}
+#map_text{
+    position: absolute;
+    top: 500px;
+    left: 200px;
     font-size: 40px;
     font-weight: bold;
     text-shadow: 3px 3px #000000;
