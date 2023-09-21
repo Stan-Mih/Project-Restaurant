@@ -9,6 +9,8 @@ body {
 header {        
     background-color: white;
     padding: rem ;    
+    border-radius: 10px;
+    border: 4px solid #232929;
 }
 .navigation{
     padding-right: 20px;
@@ -58,8 +60,7 @@ header nav li  a:hover{
     border-radius: 10px;    
 }
 
-.container{
-   
+.container{   
     font-family: 'calibri';
     text-align: center;
     color: white;
@@ -81,7 +82,13 @@ header nav li  a:hover{
     font-size: 30px;
     position: absolute;
     left: 750px;
-    top : 80px
+    top : 80px    
+}
+#salad_pic{
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 2px;
+    background-color: grey;
 }
 #kebabcheta{    
     font-size: 30px;
@@ -89,11 +96,23 @@ header nav li  a:hover{
     left: 150px;
     top: 100px;
 }
+#kebabcheta_pic{
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 2px;
+    background-color: grey;
+}
 #beer{
     font-size: 30px;
     position: absolute;
     left: 750px;
     top: 450px;
+}
+#beer_pic{
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 2px;
+    background-color: grey;
 }
 #map{
     position: absolute;
@@ -111,6 +130,8 @@ header nav li  a:hover{
 .footer {
     background-color: white;
     margin-top: 20px;
+    border-radius: 10px;
+    border: 4px solid #232929;
     
 }
 #footer_logo{
